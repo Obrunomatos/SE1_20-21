@@ -1,0 +1,44 @@
+digraph "showScore"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="showScore",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="evalScore",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d78/ui_8c.html#af8b6dd4476be700b383a3b92e697a028",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="LCDText_Locate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/da4/group__LCD__Public__Functions.html#ga7187e0fca7d1666198d63c6c972edee7",tooltip="Moves the cursor to the position received in arguments."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="LCDText_Printf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/da4/group__LCD__Public__Functions.html#gabd9c9f5eb0a5e3cb33bd38f4b34a389b",tooltip="Writes in the LCD in similar way that the c printf does."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="LCDText_WriteString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/da4/group__LCD__Public__Functions.html#ga346f0227c399d12098b2b1d1e5d46da0",tooltip="Writes a string (word) to the display in the cursor position."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="LCDText_WriteChar",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/da4/group__LCD__Public__Functions.html#gae2457428e83fd94180055837bd9f9675",tooltip="Writes a character to the display in the cursor position."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="setHighScore",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d78/ui_8c.html#a5ab79b2a19710d6d3076c0ebf1195749",tooltip=" "];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="BUTTON_GetButtonsEvents",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/df5/group__BUTTON__Public__Functions.html#ga2c59b4793ae9fcff36a5415748688519",tooltip="function that returns the state of the button"];
+  Node7 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="FLASH_EraseSectors",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d20/group__FLASH__Public__Functions.html#ga698f741fbd7c45bf458536045c2bd495",tooltip="Erases sectors of flash memory."];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="prepare_wr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d4d/flash_8c.html#a84efc66844fe2a9fa4a632b1354c16ae",tooltip=" "];
+  Node7 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="FLASH_WriteData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d20/group__FLASH__Public__Functions.html#ga3db6ec18c90224fb77b17365442f9247",tooltip="Writes data to determined space in flash memory."];
+  Node11 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="UI_resetScreen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d68/group__UI__Public__Functions.html#ga6b56d9d97bfeb110604c4118d67fcf9b",tooltip="Cleans the LCD."];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="LCDText_Clear",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/da4/group__LCD__Public__Functions.html#gac1bdd6893daf2ea4733bfb2f40020378",tooltip="Clears the display using the command in the display API."];
+  Node7 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="UI_waitForNoInput",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d68/group__UI__Public__Functions.html#gad10124979857bde4d5b66768493e7ea1",tooltip="Waits for the user to stop presseing any button."];
+  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="BUTTON_Hit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/df5/group__BUTTON__Public__Functions.html#ga9f00b0aebf4efaa3684a0e2ed2bfee08",tooltip="Non-blocking function that reads the button pressing."];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="WAIT_Milliseconds",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d7c/group__WAIT__Public__Functions.html#ga8d3111b31ffb9bce9b32370b46ae00fb",tooltip="Waits a number of milliseconds."];
+}

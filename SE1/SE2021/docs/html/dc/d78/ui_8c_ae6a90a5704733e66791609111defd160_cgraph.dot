@@ -1,0 +1,30 @@
+digraph "UI_moveCar"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="UI_moveCar",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="BUTTON_GetButtonsEvents",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/df5/group__BUTTON__Public__Functions.html#ga2c59b4793ae9fcff36a5415748688519",tooltip="function that returns the state of the button"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="getXStateLeft",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d78/ui_8c.html#a51ad3700ab70e832e9f66fea3857bbfa",tooltip=" "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Adxl345_GetX",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d5b/group__ADXL345__Public__Functions.html#ga9c6b1666a6373d8c1c6dd7b493e2d6db",tooltip="Gets the 2 byte X values of the accelerometer."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="activeCs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/dab/adxl345_8c.html#a4300ec3d0be9e3b86d78ba4d3609bde8",tooltip=" "];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="inactiveCs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/dab/adxl345_8c.html#ae3c31de4a09999824971ec65ac7988b9",tooltip=" "];
+  Node4 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="SPI_Transfer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d5b/group__ADXL345__Public__Functions.html#ga7d00c98b1764bcf04695997fe1b02a79",tooltip="Transfers bits in wich the spi is in contact to."];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="getXStateRight",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d78/ui_8c.html#a5dea795edf10b68b9c311506166b313f",tooltip=" "];
+  Node8 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="LCDText_Locate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/da4/group__LCD__Public__Functions.html#ga7187e0fca7d1666198d63c6c972edee7",tooltip="Moves the cursor to the position received in arguments."];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="LCDText_WriteChar",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/da4/group__LCD__Public__Functions.html#gae2457428e83fd94180055837bd9f9675",tooltip="Writes a character to the display in the cursor position."];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="LCDText_WriteString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/da4/group__LCD__Public__Functions.html#ga346f0227c399d12098b2b1d1e5d46da0",tooltip="Writes a string (word) to the display in the cursor position."];
+  Node11 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

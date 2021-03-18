@@ -1,0 +1,12 @@
+lcd.c:38:13:write_5bit	16	static
+lcd.c:48:13:write_9bit	24	static
+lcd.c:56:13:write_Cmd	16	static
+lcd.c:60:13:write_Data	16	static
+lcd.c:64:6:LCDText_Init	8	static
+lcd.c:88:6:LCDText_Locate	16	static
+lcd.c:100:6:incrementColumn	8	static
+lcd.c:118:6:LCDText_WriteChar	16	static
+lcd.c:124:6:LCDText_WriteString	24	static
+lcd.c:130:6:LCDText_Clear	8	static
+lcd.c:137:6:LCDText_CreateChar	24	static
+lcd.c:149:6:LCDText_Printf	272	static

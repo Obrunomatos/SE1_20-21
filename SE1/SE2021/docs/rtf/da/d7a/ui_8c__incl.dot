@@ -1,0 +1,32 @@
+digraph "C:/Users/obrun/Documents/MCUXpressoIDE_11.2.1_4149/SE1/SE2021/src/ui.c"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="C:/Users/obrun/Documents\l/MCUXpressoIDE_11.2.1_4149\l/SE1/SE2021/src/ui.c",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ui.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d3b/ui_8h.html",tooltip="Contains the UI."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="wait.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/df2/wait_8h.html",tooltip="Contains the delay API."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="lcd.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/ded/lcd_8h.html",tooltip="Contains the lcd API."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="rtc.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d1b/rtc_8h.html",tooltip="Contains the rtc API."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="time.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="flash.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/df7/flash_8h.html",tooltip="Contains the flash API."];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="spi.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d87/spi_8h.html",tooltip="Contains the spi API."];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="adxl345.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d47/adxl345_8h.html",tooltip="Contains the adxl345 API."];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="stdio.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="stdlib.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="string.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="button.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d0e/button_8h.html",tooltip="Contains the button API."];
+}

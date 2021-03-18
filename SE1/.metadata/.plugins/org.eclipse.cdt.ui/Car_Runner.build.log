@@ -1,0 +1,7 @@
+11:36:12 **** Clean-only build of configuration Release for project Car_Runner ****
+make -r -j4 clean 
+rm -rf  ./src/Car_Runner.o ./src/cr_startup_lpc175x_6x.o ./src/crp.o  ./src/Car_Runner.d ./src/cr_startup_lpc175x_6x.d ./src/crp.d  Car_Runner.axf
+ 
+
+11:36:12 Build Finished. 0 errors, 0 warnings. (took 132ms)
+

@@ -1,0 +1,11 @@
+adxl345.c:41:6:activeCs	0	static
+adxl345.c:42:6:inactiveCs	0	static
+adxl345.c:43:6:setCs	0	static
+adxl345.c:50:5:AC_GetDeviceId	24	static
+adxl345.c:57:6:config_bw_rate	16	static
+adxl345.c:62:6:config_data_format	0	static
+adxl345.c:67:6:config_power_ctl	0	static
+adxl345.c:74:5:Adxl345_Init	8	static
+adxl345.c:89:7:Adxl345_GetX	24	static
+adxl345.c:101:7:Adxl345_GetY	24	static
+adxl345.c:113:7:Adcl345_GetZ	24	static

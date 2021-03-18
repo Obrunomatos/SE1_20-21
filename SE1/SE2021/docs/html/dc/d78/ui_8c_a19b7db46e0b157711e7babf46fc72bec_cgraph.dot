@@ -1,0 +1,14 @@
+digraph "UI_init"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="UI_init",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="LCDText_Init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/da4/group__LCD__Public__Functions.html#ga762016d9342f7dbec16ae36654031760",tooltip="Initiliazes the communication with the display using lines and 16 rows."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="WAIT_Milliseconds",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d7c/group__WAIT__Public__Functions.html#ga8d3111b31ffb9bce9b32370b46ae00fb",tooltip="Waits a number of milliseconds."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="WAIT_Init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d7c/group__WAIT__Public__Functions.html#gaaf04f7010b8ca45e1053834d176b04f2",tooltip="Initialises the wait API for 1 ms resolution."];
+}

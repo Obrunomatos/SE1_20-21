@@ -1,0 +1,37 @@
+digraph "AC_Init"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AC_Init",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AC_GetDeviceId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/dab/adxl345_8c.html#a37b9e4276469e5608c68ddfadb661523",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="activeCs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/dab/adxl345_8c.html#a4300ec3d0be9e3b86d78ba4d3609bde8",tooltip=" "];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="inactiveCs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/dab/adxl345_8c.html#ae3c31de4a09999824971ec65ac7988b9",tooltip=" "];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="SPI_Transfer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d00/spi_8c.html#a7d00c98b1764bcf04695997fe1b02a79",tooltip=" "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="config_bw_rate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/dab/adxl345_8c.html#a2e8faca21e1fe99f4b3c7b574aeb24db",tooltip=" "];
+  Node6 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="config_data_format",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/dab/adxl345_8c.html#a92361507b9b6c721487003b37d7bcfb0",tooltip=" "];
+  Node7 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="config_power_ctl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/dab/adxl345_8c.html#ae8257d4ebe943f11cc1d67ebc306a89f",tooltip=" "];
+  Node8 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="setCs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/dab/adxl345_8c.html#a6e50fc8c3dbb3f0789bbab42d39595d1",tooltip=" "];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="SPI_ConfigTransfer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d00/spi_8c.html#afdfd38280ebbf6be99ed3540c0678313",tooltip=" "];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="SPI_Init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d00/spi_8c.html#a292196e767158c66f03cbcc244fc802b",tooltip=" "];
+}

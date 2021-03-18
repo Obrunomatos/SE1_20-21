@@ -1,0 +1,8 @@
+11:36:21 **** Clean-only build of configuration Debug for project CMSIS_CORE_LPC17xx ****
+make -r clean 
+rm -rf  ./src/system_LPC17xx.o  ./src/system_LPC17xx.d  libCMSIS_CORE_LPC17xx.a
+ 
+11:36:21 **** Clean-only build of configuration Release for project SE2021 ****
+make -r clean 
+rm -rf  ./src/adxl345.o ./src/button.o ./src/flash.o ./src/lcd.o ./src/led.o ./src/rtc.o ./src/spi.o ./src/ui.o ./src/wait.o  ./src/adxl345.d ./src/button.d ./src/flash.d ./src/lcd.d ./src/led.d ./src/rtc.d ./src/spi.d ./src/ui.d ./src/wait.d  libSE2021.a
+ 

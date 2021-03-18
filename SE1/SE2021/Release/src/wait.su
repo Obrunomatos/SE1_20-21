@@ -1,0 +1,5 @@
+wait.c:20:6:SysTick_Handler	0	static
+wait.c:25:6:WAIT_Milliseconds	0	static
+wait.c:33:9:WAIT_Init	16	static
+wait.c:44:10:WAIT_GetElapsedMillis	0	static
+wait.c:49:6:WAIT_ChronoUs	0	static

@@ -1,0 +1,4 @@
+led.c:15:6:LED_Init	0	static
+led.c:21:6:LED_GetState	0	static
+led.c:28:6:LED_On	0	static
+led.c:32:6:LED_Off	0	static

@@ -1,0 +1,13 @@
+cr_startup_lpc175x_6x.c:222:6:data_init	40	static
+cr_startup_lpc175x_6x.c:231:6:bss_init	24	static
+cr_startup_lpc175x_6x.c:257:1:ResetISR	24	static
+cr_startup_lpc175x_6x.c:314:6:NMI_Handler	4	static
+cr_startup_lpc175x_6x.c:320:6:HardFault_Handler	4	static
+cr_startup_lpc175x_6x.c:325:6:MemManage_Handler	4	static
+cr_startup_lpc175x_6x.c:330:6:BusFault_Handler	4	static
+cr_startup_lpc175x_6x.c:335:6:UsageFault_Handler	4	static
+cr_startup_lpc175x_6x.c:340:6:SVC_Handler	4	static
+cr_startup_lpc175x_6x.c:345:6:DebugMon_Handler	4	static
+cr_startup_lpc175x_6x.c:350:6:PendSV_Handler	4	static
+cr_startup_lpc175x_6x.c:355:6:SysTick_Handler	4	static
+cr_startup_lpc175x_6x.c:366:6:IntDefaultHandler	4	static

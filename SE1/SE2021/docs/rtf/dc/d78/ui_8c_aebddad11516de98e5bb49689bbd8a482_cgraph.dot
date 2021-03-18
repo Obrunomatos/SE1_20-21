@@ -1,0 +1,26 @@
+digraph "UI_showTime"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="UI_showTime",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="printTime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d78/ui_8c.html#a99c243ee554e513d46efee2ef450d662",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="LCDText_Locate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/da4/group__LCD__Public__Functions.html#ga7187e0fca7d1666198d63c6c972edee7",tooltip="Moves the cursor to the position received in arguments."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="LCDText_Printf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/da4/group__LCD__Public__Functions.html#gabd9c9f5eb0a5e3cb33bd38f4b34a389b",tooltip="Writes in the LCD in similar way that the c printf does."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="LCDText_WriteString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/da4/group__LCD__Public__Functions.html#ga346f0227c399d12098b2b1d1e5d46da0",tooltip="Writes a string (word) to the display in the cursor position."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="LCDText_WriteChar",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/da4/group__LCD__Public__Functions.html#gae2457428e83fd94180055837bd9f9675",tooltip="Writes a character to the display in the cursor position."];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="UI_resetScreen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d68/group__UI__Public__Functions.html#ga6b56d9d97bfeb110604c4118d67fcf9b",tooltip="Cleans the LCD."];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="LCDText_Clear",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/da4/group__LCD__Public__Functions.html#gac1bdd6893daf2ea4733bfb2f40020378",tooltip="Clears the display using the command in the display API."];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="RTC_GetValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/db4/group__RTC__Public__Functions.html#ga506e5d1d8d538575e4739d85f4db7ff1",tooltip="Gets the current time available in the rtc."];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="WAIT_Milliseconds",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d7c/group__WAIT__Public__Functions.html#ga8d3111b31ffb9bce9b32370b46ae00fb",tooltip="Waits a number of milliseconds."];
+}

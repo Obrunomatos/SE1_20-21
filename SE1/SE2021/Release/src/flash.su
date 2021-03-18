@@ -1,0 +1,4 @@
+flash.c:55:14:prepare_wr	8	static
+flash.c:63:14:FLASH_EraseSectors	16	static
+flash.c:73:14:FLASH_WriteData	24	static
+flash.c:91:14:FLASH_VerifyData	8	static

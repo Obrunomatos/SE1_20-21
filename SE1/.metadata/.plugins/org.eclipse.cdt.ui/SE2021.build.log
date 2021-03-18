@@ -1,0 +1,7 @@
+11:36:21 **** Clean-only build of configuration Release for project SE2021 ****
+make -r clean 
+rm -rf  ./src/adxl345.o ./src/button.o ./src/flash.o ./src/lcd.o ./src/led.o ./src/rtc.o ./src/spi.o ./src/ui.o ./src/wait.o  ./src/adxl345.d ./src/button.d ./src/flash.d ./src/lcd.d ./src/led.d ./src/rtc.d ./src/spi.d ./src/ui.d ./src/wait.d  libSE2021.a
+ 
+
+11:36:21 Build Finished. 0 errors, 0 warnings. (took 130ms)
+

@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['sck_172',['SCK',['../da/d00/spi_8c.html#a2dd443a4430713d325ab86895a4a45eb',1,'spi.c']]],
+  ['score_173',['score',['../de/d65/structPlayerStruct.html#ae8e17adf78d74aac00a83553d75010d3',1,'PlayerStruct']]],
+  ['sector_5fsize_174',['SECTOR_SIZE',['../d1/d4d/flash_8c.html#aa35bad1e92008da628f27b2f6bb270aa',1,'flash.c']]],
+  ['sectoraddr_175',['sectorAddr',['../dc/d78/ui_8c.html#a0882ca6691fbb391579a4ab0b0c56eaf',1,'ui.c']]],
+  ['sectoraddr_5fval_176',['sectorAddr_val',['../dc/d78/ui_8c.html#aaaf5a7efbe93980752a20e4eea96d09b',1,'ui.c']]],
+  ['sectors_177',['sectors',['../d1/d4d/flash_8c.html#ab059cd8e202685d05cc01ce328a3847e',1,'flash.c']]],
+  ['setbotobs_178',['setBotObs',['../dc/d78/ui_8c.html#a6f46e5946c6c6c6d11382f5256df57cf',1,'ui.c']]],
+  ['setcs_179',['setCs',['../d3/dab/adxl345_8c.html#a6e50fc8c3dbb3f0789bbab42d39595d1',1,'adxl345.c']]],
+  ['sethighscore_180',['setHighScore',['../dc/d78/ui_8c.html#a5ab79b2a19710d6d3076c0ebf1195749',1,'ui.c']]],
+  ['setrandompositions_181',['setRandomPositions',['../dc/d78/ui_8c.html#a61a7e82904183dcb3083452d3a56744c',1,'ui.c']]],
+  ['settopobs_182',['setTopObs',['../dc/d78/ui_8c.html#a3e83332946f4eabb7e0cb16005eecaae',1,'ui.c']]],
+  ['showobstacles_183',['showObstacles',['../dc/d78/ui_8c.html#a8a458d709da18947ba5118a06babc1e7',1,'ui.c']]],
+  ['showscore_184',['showScore',['../dc/d78/ui_8c.html#a7fe3b0ac571d0d42b5672333f47f3ae0',1,'ui.c']]],
+  ['spi_2ec_185',['spi.c',['../da/d00/spi_8c.html',1,'']]],
+  ['spi_2eh_186',['spi.h',['../da/d87/spi_8h.html',1,'']]],
+  ['spi_5fconfigtransfer_187',['SPI_ConfigTransfer',['../df/d5b/group__ADXL345__Public__Functions.html#gafdfd38280ebbf6be99ed3540c0678313',1,'SPI_ConfigTransfer(int frequency, int bitData, int mode):&#160;spi.c'],['../df/d5b/group__ADXL345__Public__Functions.html#gafdfd38280ebbf6be99ed3540c0678313',1,'SPI_ConfigTransfer(int frequency, int bitData, int mode):&#160;spi.c']]],
+  ['spi_5finit_188',['SPI_Init',['../df/d5b/group__ADXL345__Public__Functions.html#ga292196e767158c66f03cbcc244fc802b',1,'SPI_Init(void):&#160;spi.c'],['../df/d5b/group__ADXL345__Public__Functions.html#ga292196e767158c66f03cbcc244fc802b',1,'SPI_Init(void):&#160;spi.c']]],
+  ['spi_5ftransfer_189',['SPI_Transfer',['../df/d5b/group__ADXL345__Public__Functions.html#ga7d00c98b1764bcf04695997fe1b02a79',1,'SPI_Transfer(unsigned short *txBuffer, short *rxBuffer, int lenght):&#160;spi.c'],['../df/d5b/group__ADXL345__Public__Functions.html#ga7d00c98b1764bcf04695997fe1b02a79',1,'SPI_Transfer(unsigned short *txBuffer, short *rxBuffer, int lenght):&#160;spi.c']]],
+  ['spif_190',['SPIF',['../da/d00/spi_8c.html#ac345ddc9e794f439292ab0019d53c226',1,'spi.c']]],
+  ['statebtn1_191',['stateBtn1',['../d7/dc7/button_8c.html#ade4e62230e73e4aba2b5ad39a635f52f',1,'button.c']]],
+  ['statebtn2_192',['stateBtn2',['../d7/dc7/button_8c.html#a6a2d836a42b2ba88153b4e3fd3de92cb',1,'button.c']]],
+  ['statebtn3_193',['stateBtn3',['../d7/dc7/button_8c.html#a04bfc27dbac87e49e8843781005e3d23',1,'button.c']]],
+  ['systick_5ffreq_194',['SYSTICK_FREQ',['../dd/d10/wait_8c.html#a259bee748117476f5bf763c71a2f66a8',1,'wait.c']]],
+  ['systick_5fhandler_195',['SysTick_Handler',['../dd/d10/wait_8c.html#ab5e09814056d617c521549e542639b7e',1,'wait.c']]]
+];

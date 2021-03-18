@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="606"/>
+		<item key="DIALOG_Y_ORIGIN" value="132"/>
+	</section>
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.ui.wizards.export.FileSystem"/>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="FileSystemExportWizard">
+		<item key="WizardFileSystemResourceExportPage1.STORE_OVERWRITE_EXISTING_FILES_ID" value="true"/>
+		<item key="WizardFileSystemResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
+		<item key="WizardFileSystemResourceExportPage1.STORE_RESOLVE_LINKED_RESOURCES_ID" value="false"/>
+		<list key="WizardFileSystemResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\obrun\Desktop\entregaaL"/>
+			<item value="C:\Users\obrun\Desktop\entregaa"/>
+			<item value="C:\Users\obrun\Documents\entrega final"/>
+			<item value="C:\Users\obrun\Documents\entrega flash"/>
+			<item value="C:\Users\obrun\Documents\entrega spi"/>
+			<item value="C:\Users\obrun\Documents\entrega rtc"/>
+			<item value="C:\Users\obrun\Desktop\ENTREGA_SE_WAIT_TIM0"/>
+			<item value="C:\Users\obrun\Desktop\ENTREGA_SE_LED_BOTAO"/>
+		</list>
+	</section>
+</section>
